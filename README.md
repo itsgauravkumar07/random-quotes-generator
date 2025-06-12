@@ -1,12 +1,18 @@
-# React + Vite
+# 🎯 Random Quote Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React app that displays random quotes using a public API. It was built with **Vite + React** and styled with inline CSS.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎲 Fetches a new random quote on button click
+- ✍️ Displays the quote and author
+- 📋 Copy quote to clipboard feature
+- 🧠 Clean UI and responsive layout
+- ⚡ Built using Vite for fast development and build times
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (with Hooks like `useState` and `useEffect`)
+- Vite (for lightning-fast setup)
+- Fetch API
+- Inline styling (no external CSS framework)
